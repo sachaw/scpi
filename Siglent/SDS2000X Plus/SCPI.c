@@ -1,5 +1,4 @@
 void UndefinedFunction_00629678(void)
-
 {
   scpi_register_command("*CLS", SCPI_CoreCls, 1);
   scpi_register_command("*ESE", SCPI_CoreEse, 1);
@@ -2137,7 +2136,6 @@ void scpi_register_cmd_awg(void)
 }
 
 void scpi_register_out_put_cmd(void)
-
 {
   scpi_lib_get_ch1_cmd("OUTPut",abStack16);
   scpi_lib_get_ch2_cmd("OUTPut",abStack16);
@@ -2217,21 +2215,18 @@ void scpi_register_sync_cmd(void)
 }
 
 void scpi_register_product_band_cmd(void)
-
 {
   scpi_lib_get_special_cmd("PRODuct",abStack16);
   scpi_lib_get_special_cmd("PRODuct?",abStack16);
 }
 
 void scpi_register_freq_counter_cmd(void)
-
 {
   scpi_lib_register_scpi_command("FreqCouNTer", scpi_freq_counter);
   scpi_lib_get_query_cmd("FreqCouNTer",abStack16);
 }
 
 void scpi_register_buzzer_cmd(void)
-
 {
   scpi_lib_get_witchout_ch_cmd("BUZZer",abStack16);
   scpi_lib_get_query_cmd("BUZZer",abStack16);
@@ -2243,7 +2238,6 @@ void scpi_register_ch_copy_cmd(void)
 }
 
 void scpi_register_coupling_cmd(void)
-
 {
   scpi_lib_get_witchout_ch_cmd("COUPling",abStack16);
   scpi_lib_get_query_cmd("COUPling",abStack16);
