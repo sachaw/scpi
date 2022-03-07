@@ -1,0 +1,17 @@
+## Registered functions checked:
+
+scpi_register_command
+scpi_if_regsiter_scpi_bin_cmd
+scpi_if_register_scpi_cmd
+scpi_if_register_private_cmd
+scpi_if_register_private_bin_cmd
+scpi_if_register_cmd
+scpi_lib_get_ch1_cmd
+scpi_lib_get_ch2_cmd
+scpi_lib_get_ch1_query_cmd
+scpi_lib_get_ch2_query_cmd
+scpi_lib_register_scpi_command
+scpi_if_register_bin_cmd
+scpi_lib_get_query_cmd
+scpi_lib_get_witchout_ch_cmd
+scpi_lib_get_special_cmd
